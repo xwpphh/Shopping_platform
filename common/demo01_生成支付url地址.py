@@ -2,9 +2,9 @@ from alipay import AliPay
 
 # 第一步准备：支付宝的应用数据(调试阶段使用沙箱环境)
 # 应用id
-app_id = '9021000134639525'
+app_id = '*'
 # 商户号
-pid = '208872102917 6409'
+pid = '*'
 # 公钥和私钥
 public_key = open('alipay_public_key.pem').read()
 private_key = open('app_private_key.pem').read()

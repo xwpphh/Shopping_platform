@@ -9,19 +9,15 @@ from alibabacloud_tea_util.models import RuntimeOptions
 class AliyunSMS:
 
     def __init__(self):
-        self.access_key_id = 'LTAI5tSoqB5Kqe5QxBa7Tvxb'
-        self.access_key_secret = '4xCEaDh05zZzT8SzK1AwgWJdOOwzmO'
-        self.endpoint = f'dysmsapi.aliyuncs.com'
+        self.access_key_id = '**'
+        self.access_key_secret = '**'
+        self.endpoint = f'**'
         self.sign_name = '阿里云短信测试'
-        self.template_code = 'SMS_154950909'
+        self.template_code = '**'
 
     def send_msg(self, mobile, code):
         """
-        AccessKey ID
-        LTAI5tSoqB5Kqe5QxBa7Tvxb
 
-        AccessKey Secret
-        4xCEaDh05zZzT8SzK1AwgWJdOOwzmO
 
         :param mobile:手机号
         :param code:验证码
@@ -55,4 +51,4 @@ class AliyunSMS:
 
 
 if __name__ == '__main__':
-    AliyunSMS().send_msg(mobile='15935402546', code='020211')
+    AliyunSMS().send_msg(mobile='***********', code='******')
